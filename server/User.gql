@@ -1,0 +1,18 @@
+type User @mongo(name: "users") {
+    _id: ID!
+    verified: Boolean
+    services: JSON
+    emails: JSON
+}
+
+type Query {
+    users: [User]
+}
+
+type Query {
+    me: User
+}
+
+type Subscription {
+    users: SubscriptionEvent
+}

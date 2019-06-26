@@ -1,0 +1,33 @@
+{
+  "name": "meteor-graphql",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link": "^1.2.12",
+    "apollo-link-http": "^1.5.15",
+    "apollo-link-schema": "^1.2.3",
+    "apollo-link-ws": "^1.0.18",
+    "apollo-live-client": "^0.2.1",
+    "apollo-live-server": "^0.2.2",
+    "apollo-morpher": "^0.2.0",
+    "apollo-server-express": "^2.6.4",
+    "apollo-upload-client": "^10.0.1",
+    "graphql": "^14.3.1",
+    "graphql-load": "^0.1.1",
+    "graphql-tools": "^4.0.5",
+    "graphql-type-json": "^0.3.0",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "simpl-schema": "^1.5.5",
+    "subscriptions-transport-ws": "^0.9.16",
+    "uuid": "^3.3.2"
+  }
+}
